@@ -43,32 +43,32 @@
     </section>
 
     <section class="row">
-      <h3>Core Team:</h3>
+      <h3>Core Team: High Distinction</h3>
       <div id="teammembers-current"></div>
     </section>
 
     <section class="row">
-      <h3>Committers:</h3>
+      <h3>Committers: Jo Vlnte | Shajie chen | Rein Deer | Syaz Wina</h3>
       <ol id="committers-current"></ol>
     </section>
 
     <section class="row">
-      <h3>Past Team Members:</h3>
+      <h3>Past Team Members: ??</h3>
       <ol id="teammembers-past"></ol>
     </section>
 
     <section class="row">
-      <h3>Past Committers:</h3>
+      <h3>Past Committers: ?? </h3>
       <ol id="committers-past"></ol>
     </section>
 
     <section class="row">
       <h3>Contributors</h3>
-      <h4>Major contributions:</h4>
+      <h4>Major contributions: ??</h4>
       <ol id="contributors-major"></ol>
-      <h4>Multiple contributions:</h4>
+      <h4>Multiple contributions: ?? </h4>
       <ol id="contributors-multiple"></ol>
-      <h4>One-time contributions:</h4>
+      <h4>One-time contributions: ??</h4>
       <ol id="contributors-single"></ol>
     </section>
     <p>
