@@ -48,7 +48,7 @@
     </section>
 
     <section class="row">
-      <h3>Committers: Jo Vlnte | Shajie chen | Rein Deer | Syaz Wina</h3>
+      <h3>Committers: Joseph Bulan | Shajie chen | Reinhart Weismann| Syaz Wina</h3>
       <ol id="committers-current"></ol>
     </section>
 
