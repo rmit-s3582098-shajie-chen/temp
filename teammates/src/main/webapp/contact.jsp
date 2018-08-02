@@ -8,7 +8,14 @@
     </h1>
     <img class="img-responsive" src="images/contact.png">
     <p>
-      <b>Email:</b> You can contact us at the following email address - <a href="mailto:teammates@comp.nus.edu.sg">teammates@comp.nus.edu.sg</a>
+      <b>Email:</b> You can contact us at the following email addresses - 
+      Joseph Bulan<a href="mailto:s3628366@student.rmit.edu.au">s3628366@student.rmit.edu.au</a>
+      <br>
+      Shajie Chen<a href="mailto:s3582098@student.rmit.edu.au">s3582098@student.rmit.edu.au</a>
+      <br>
+      Reinhart Weismann<a href="mailto:s3554517@student.rmit.edu.au">s3554517@student.rmit.edu.au</a>
+      <br>
+      Syaz Wina<a href="mailto:s3575233@student.rmit.edu.au">s3575233@student.rmit.edu.au</a>
     </p>
     <br>
     <p>
@@ -20,7 +27,7 @@
     </p>
     <br>
     <p>
-      <b>Interested in joining us?:</b> Visit our <a href="https://github.com/TEAMMATES/teammates">Developer Website</a>.
+      <b>Interested in joining us?:</b> Visit our <a href="https://github.com/RMIT-SEPT/High-Distinction">Developer Website - High-Distinction</a>.
     </p>
   </main>
 </t:staticPage>
