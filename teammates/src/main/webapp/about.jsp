@@ -73,6 +73,10 @@
     </section>
     <p>
       Would you like to join the TEAMMATES team as a contributor? <a href="contact.jsp">Contact Us</a>.
+      <img src="/images/youtube.jpg" width='100' style="float: right; margin: 0px 15px 15px 0px;">
+      <img src="/images/facebook.png" width='100' style="float: right; margin: 0px 15px 15px 0px;">
+      <img src="/images/twitter.png" width='100' style="float: right; margin: 0px 15px 15px 0px;">
     </p>
+   
   </div>
 </t:staticPage>
