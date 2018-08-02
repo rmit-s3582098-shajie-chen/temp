@@ -8,15 +8,17 @@
     </h1>
     <img class="img-responsive" src="images/contact.png">
     <p>
-      <b>Email:</b> You can contact us at the following email addresses - 
-      Joseph Bulan<a href="mailto:s3628366@student.rmit.edu.au">s3628366@student.rmit.edu.au</a>
+      <b>Email:</b> You can contact us at the following email addresses
+      <br><br>
+      Joseph Bulan <a href="mailto:s3628366@student.rmit.edu.au">s3628366@student.rmit.edu.au</a>
       <br>
-      Shajie Chen<a href="mailto:s3582098@student.rmit.edu.au">s3582098@student.rmit.edu.au</a>
+      Shajie Chen <a href="mailto:s3582098@student.rmit.edu.au">s3582098@student.rmit.edu.au</a>
       <br>
-      Reinhart Weismann<a href="mailto:s3554517@student.rmit.edu.au">s3554517@student.rmit.edu.au</a>
+      Reinhart Weismann <a href="mailto:s3554517@student.rmit.edu.au">s3554517@student.rmit.edu.au</a>
       <br>
-      Syaz Wina<a href="mailto:s3575233@student.rmit.edu.au">s3575233@student.rmit.edu.au</a>
+      Syaz Wina <a href="mailto:s3575233@student.rmit.edu.au">s3575233@student.rmit.edu.au</a>
     </p>
+    <br>
     <br>
     <p>
       <b>Blog:</b> Visit the <a href="http://teammatesonline.blogspot.sg/">TEAMMATES Blog</a> to see our latest updates and information.
