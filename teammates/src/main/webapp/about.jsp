@@ -48,7 +48,7 @@
     </section>
 
     <section class="row">
-      <h3>Committers: Joseph Bulan | Shajie Chen | Reinhart Weismann| Syaz Wina</h3>
+      <h3>Committers: Joseph Bulan | Shajie Chen | Reinhart Weismann| Ummil Syazwina Zainab Tengku</h3>
       <ol id="committers-current"></ol>
     </section>
 
