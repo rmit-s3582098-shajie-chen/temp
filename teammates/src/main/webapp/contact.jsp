@@ -16,7 +16,7 @@
       <br>
       Reinhart Weismann <a href="mailto:s3554517@student.rmit.edu.au">s3554517@student.rmit.edu.au</a>
       <br>
-      Syaz Wina <a href="mailto:s3575233@student.rmit.edu.au">s3575233@student.rmit.edu.au</a>
+      Ummil Syazwina Zainab Tengku <a href="mailto:s3575233@student.rmit.edu.au">s3575233@student.rmit.edu.au</a>
     </p>
     <br>
     <br>
