@@ -18,7 +18,6 @@ def pmdVersion = "6.5.0"
 def findbugsVersion = "3.0.1"
 def jacocoVersion = "0.8.1"
 def guavaVersion = "22.0"
-
 buildscript {
     repositories {
         jcenter()

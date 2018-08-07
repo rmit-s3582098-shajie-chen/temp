@@ -35,7 +35,6 @@ public class GateKeeper {
 
     public UserType getCurrentUser() {
         User user = getCurrentGoogleUser();
-
         if (user == null) {
             return null;
         }
