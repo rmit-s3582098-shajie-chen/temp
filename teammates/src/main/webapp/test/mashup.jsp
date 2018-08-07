@@ -395,13 +395,11 @@
         <iframe class="full-width" src="/terms.jsp"></iframe>
       </div>
       <br><hr class="hr-bold"><br>
-     
-	  <div class="pageinfo">News Page</div>
+      <div class="pageinfo">News Page</div>
       <div id="news">
         <iframe class="full-width" src="/News.jsp"></iframe>
       </div>
       <br><hr class="hr-bold"><br>
-      
       <div class="pageinfo">Request Account Page</div>
       <div id="request">
         <iframe class="full-width" src="/request.jsp"></iframe>
