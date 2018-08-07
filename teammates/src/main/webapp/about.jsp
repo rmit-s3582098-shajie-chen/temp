@@ -77,6 +77,5 @@
       <img src="/images/facebook.png" width='50' style="float: right; margin: 0px 10px 10px 0px;">
       <img src="/images/twitter.png" width='50' style="float: right; margin: 0px 10px 10px 0px;">
     </p>
-   
   </div>
 </t:staticPage>
