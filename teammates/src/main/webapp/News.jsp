@@ -5,6 +5,11 @@
   <main class="container">
     <h1 class="color-orange">
       News
-    </h1> 
+    </h1>
+    </br>  
+    <body> 
+    	<textarea id="demo" rows="4" cols="50"></textarea> 
+		<script src = "NewsScript.js"></script>
+	</body>
   </main>
 </t:staticPage>
