@@ -137,6 +137,10 @@
         </label>
       </div>
     </div>
+    <div class="form-group">
+    	<label>Date of Birth</label><br>
+      	<input type="text" placeholder="dd/mm/yyyy" name="birthdate" id="birthdate" maxlength="10"/>
+     </div>
     <div class="form-group"
         title="<%= Const.Tooltips.STUDENT_PROFILE_MOREINFO %>"
         data-toggle="tooltip"
@@ -150,6 +154,24 @@
           rows="4"
           class="form-control"
           placeholder="<%= Const.Tooltips.STUDENT_PROFILE_MOREINFO %>">${profile.moreInfo}</textarea>
+    </div>
+    <div class="form-group">
+        <!--  
+        title="<%= Const.Tooltips.STUDENT_PROFILE_SHORTNAME %>"
+        data-toggle="tooltip"
+        data-placement="top">
+        
+         -->
+      <label for="studentNickname">
+        The name you prefer to be called by Instructors
+      </label>
+      <input id="studentShortname"
+          name="<%= Const.ParamsNames.STUDENT_SHORT_NAME %>"
+          class="form-control"
+          type="text"
+          data-actual-value="<c:out value="${profile.shortName}"/>"
+          value="<c:out value="${profile.shortName}"/>"
+          placeholder="How the instructor should call you">
     </div>
     <br>
     <button type="submit" id="profileEditSubmit" class="btn btn-primary center-block">
