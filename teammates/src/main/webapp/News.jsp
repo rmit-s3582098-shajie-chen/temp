@@ -28,6 +28,7 @@
     </h1>
     </br>  
     <body> 
+    	 <h1><div id="nameOfCity"></div></h1>
 		 <h1><div id="temp"></div><div id="minutely"></div></h1>
        	 <h2><div id="location"></div></h2>
 	</body> 

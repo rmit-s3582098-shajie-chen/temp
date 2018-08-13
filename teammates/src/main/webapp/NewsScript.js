@@ -10,13 +10,14 @@
 		  	 	$.getJSON(apiCall, weatherCallback);
 		  	 	navigator.geolocation.getCurrentPosition(weatherCallback, error);
 			  	function weatherCallback(weatherData)
-			  	{
+			  	{ 
 			  		latitude = weatherData.coord.lat;
 			  	    longitude = weatherData.coord.lon;
 			  	    location.innerHTML =
 			  	      "Latitude is " + latitude + "° Longitude is " + longitude + "°";
-			  	    $("#temp").html(weatherData.main.temp + "° F");
+			  	    $("#temp").html("Temp:"+ weatherData.main.temp + "° F");
 			        $("#minutely").html(weatherData.weather.description);
+			        $("#nameOfCity").html(weatherData.name);
 			  	}
 
 			  	function error() {
