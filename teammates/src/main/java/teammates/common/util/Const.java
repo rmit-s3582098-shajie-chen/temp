@@ -814,6 +814,7 @@ public final class Const {
         public static final String STUDENT_PROFILE_INSTITUTION = "studentprofileinstitute";
         public static final String STUDENT_NATIONALITY = "studentnationality";
         public static final String STUDENT_GENDER = "studentgender";
+        public static final String STUDENT_AGE = "studentAge";
         public static final String STUDENT_PROFILE_MOREINFO = "studentprofilemoreinfo";
         public static final String STUDENT_PROFILE_PHOTO = "studentprofilephoto";
         public static final String STUDENT_PROFILE_PHOTOEDIT = "editphoto";

@@ -139,7 +139,7 @@
     </div>
     <div class="form-group">
     	<label>Date of Birth</label><br>
-      	<input type="text" placeholder="dd/mm/yyyy" name="birthdate" id="birthdate" maxlength="10"/>
+      	<input type="text" placeholder="dd/mm/yyyy" name="studentAge" id="studentAge" maxlength="10"/>
      </div>
     <div class="form-group"
         title="<%= Const.Tooltips.STUDENT_PROFILE_MOREINFO %>"

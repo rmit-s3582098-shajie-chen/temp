@@ -26,6 +26,9 @@ public class StudentProfilePage extends AppPage {
 
     @FindBy(id = "studentNationality")
     private WebElement studentNationalityDropdown;
+    
+    @FindBy(id = "studentAge")
+    private WebElement studentAgeBox;
 
     @FindBy(id = "genderMale")
     private WebElement genderMaleRadio;
@@ -132,6 +135,10 @@ public class StudentProfilePage extends AppPage {
     public void fillMoreInfo(String moreInfo) {
         fillTextBox(moreInfoBox, moreInfo);
     }
+    
+    public void fillDob(String dob) {
+        fillTextBox(studentAgeBox, dob);
+    }
 
     public void selectGender(String gender) {
         switch (gender) {
@@ -151,22 +158,24 @@ public class StudentProfilePage extends AppPage {
     }
 
     public void editProfileThroughUi(String shortName, String email, String institute,
-                                     String nationality, String gender, String moreInfo) {
+                                     String nationality, String dob, String gender, String moreInfo) {
         fillShortName(shortName);
         fillEmail(email);
         fillInstitution(institute);
         selectNationality(nationality);
         fillMoreInfo(moreInfo);
+        fillDob(dob);
         selectGender(gender);
         submitEditedProfile();
     }
 
     public void ensureProfileContains(String shortName, String email, String institute, String nationality,
-                                      String gender, String moreInfo) {
+                                      String dob, String gender, String moreInfo) {
         assertEquals(shortName, shortNameBox.getAttribute("value"));
         assertEquals(email, emailBox.getAttribute("value"));
         assertEquals(institute, institutionBox.getAttribute("value"));
         ensureNationalityIsSelectedAs(nationality);
+        assertEquals(dob, studentAgeBox.getAttribute("value"));
         ensureGenderIsSelectedAs(gender);
         assertEquals(moreInfo, moreInfoBox.getText());
     }
