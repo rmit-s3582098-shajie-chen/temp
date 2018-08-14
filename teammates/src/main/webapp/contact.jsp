@@ -7,8 +7,29 @@
       Contact Us
     </h1>
     <img class="img-responsive" src="images/contact.png">
+      <div class="containerForm">
+    	<form>
+    		<h4>Send us a message and we'll respond as soon as possible! </h4>
+    		<label for="contactName">Name:</label>
+    		<input type="text" id="contactName" style="width: 300px">
+    		<br>
+    		<br>
+    		<label for="contactEmail">Email:</label>
+    		<input type="email" id="contactEmail" style="width: 300px">
+    		<br>
+    		<br>
+    		<label for="contactComment">Message: </label>
+    		<br>
+    		<textarea id="contactComment" name="contactComment" placeholder="Write your message here..." style="width: 345px" rows="10"></textarea>
+    		<br>
+    		<br>
+    		<input type="submit" value="Submit">
+    		<br>
+    		<br>
+    	</form>
+    </div>
     <p>
-      <b>Email:</b> You can contact us at the following email addresses
+      <b>Email:</b> You can also contact us at the following email addresses
       <br><br>
       Joseph Bulan <a href="mailto:s3628366@student.rmit.edu.au">s3628366@student.rmit.edu.au</a>
       <br>
