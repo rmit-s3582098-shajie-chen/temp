@@ -14,14 +14,14 @@
 			  		latitude = weatherData.coord.lat;
 			  	    longitude = weatherData.coord.lon;
 			  	    location.innerHTML =
-			  	      "Latitude is " + latitude + "° <br/>"+" Longitude is " + longitude + "°";
-			  	    $("#temp").html("Temp: "+ weatherData.main.temp + "° F");
+			  	      "Latitude is " + latitude + "° Longitude is " + longitude + "°";
+			  	    $("#temp").html("Temp:"+ weatherData.main.temp + "° F");
 			        $("#minutely").html(weatherData.weather.description);
 			        $("#nameOfCity").html(weatherData.name);
 			  	}
 
 			  	function error() {
-			  		location.innerHTML = "Loading..<br/> make sure the internt connect stable ...";
+			  		location.innerHTML = "Locating...";
 			  	}
 		  	}
 		  	
