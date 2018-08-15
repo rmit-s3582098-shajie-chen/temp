@@ -36,6 +36,8 @@ public class StudentProfile extends BaseEntity {
 
     private String nationality;
 
+    private String dob;
+    
     /* only accepts "male", "female" or "other" */
     private String gender;
 
@@ -136,6 +138,10 @@ public class StudentProfile extends BaseEntity {
 
     public void setNationality(String nationality) {
         this.nationality = nationality;
+    }
+    
+    public String getDob() {
+    	return this.dob;
     }
 
     public String getGender() {

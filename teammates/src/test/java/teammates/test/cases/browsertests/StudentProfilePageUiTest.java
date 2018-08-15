@@ -140,9 +140,9 @@ public class StudentProfilePageUiTest extends BaseUiTestCase {
 
         ______TS("Typical case: no picture");
 
-        profilePage.editProfileThroughUi("short.name", "e@email.tmt", "inst", "Singaporean", "male",
+        profilePage.editProfileThroughUi("short.name", "e@email.tmt", "inst", "Singaporean", "03/03/1995", "male",
                                          "this is enough!$%&*</>");
-        profilePage.ensureProfileContains("short.name", "e@email.tmt", "inst", "Singaporean",
+        profilePage.ensureProfileContains("short.name", "e@email.tmt", "inst", "Singaporean", "10/05/1998",
                                           "male", "this is enough!$%&*</>");
         profilePage.waitForTextsForAllStatusMessagesToUserEquals(Const.StatusMessages.STUDENT_PROFILE_EDITED);
 
@@ -157,21 +157,21 @@ public class StudentProfilePageUiTest extends BaseUiTestCase {
                 .withNationality("American")
                 .build();
         profilePage.editProfileThroughUi(
-                spa.shortName, spa.email, spa.institute, spa.nationality, spa.gender, spa.moreInfo);
+                spa.shortName, spa.email, spa.institute, spa.nationality, spa.dob, spa.gender, spa.moreInfo);
         profilePage.ensureProfileContains("name<script>alert(\"Hello world!\");</script>",
-                "e@email.tmt", "inst<script>alert(\"Hello world!\");</script>", "American",
+                "e@email.tmt", "inst<script>alert(\"Hello world!\");</script>", "American", "03/03/1995",
                 "male", "this is enough!$%&*</><script>alert(\"Hello world!\");</script>");
         profilePage.waitForTextsForAllStatusMessagesToUserEquals(Const.StatusMessages.STUDENT_PROFILE_EDITED);
 
         ______TS("Typical case: changing genders for complete coverage");
 
-        profilePage.editProfileThroughUi("short.name", "e@email.tmt", "inst", "American", "other",
+        profilePage.editProfileThroughUi("short.name", "e@email.tmt", "inst", "American", "05/05/1995", "other",
                                          "this is enough!$%&*</>");
-        profilePage.ensureProfileContains("short.name", "e@email.tmt", "inst", "American",
+        profilePage.ensureProfileContains("short.name", "e@email.tmt", "inst", "American", "03/05/1996",
                                           "other", "this is enough!$%&*</>");
-        profilePage.editProfileThroughUi("short.name", "e@email.tmt", "inst", "American", "female",
+        profilePage.editProfileThroughUi("short.name", "e@email.tmt", "inst", "American", "02/10/1992", "female",
                                          "this is enough!$%&*</>");
-        profilePage.ensureProfileContains("short.name", "e@email.tmt", "inst", "American",
+        profilePage.ensureProfileContains("short.name", "e@email.tmt", "inst", "American", "01/09/2001",
                                          "female", "this is enough!$%&*</>");
 
         ______TS("Failure case: invalid institute with attempted script injection");
@@ -181,9 +181,9 @@ public class StudentProfilePageUiTest extends BaseUiTestCase {
                 .withGender("male").withMoreInfo("this is enough!$%&*</>")
                 .withInstitute("<script>alert(\"Hello world!\");</script>").withNationality("American")
                 .build();
-        profilePage.editProfileThroughUi(spa.shortName, spa.email, spa.institute, spa.nationality, spa.gender,
+        profilePage.editProfileThroughUi(spa.shortName, spa.email, spa.institute, spa.nationality, spa.dob, spa.gender,
                                          spa.moreInfo);
-        profilePage.ensureProfileContains("short.name", "e@email.tmt", "inst", "American",
+        profilePage.ensureProfileContains("short.name", "e@email.tmt", "inst", "American", "01/01/1991", 
                                           "female", "this is enough!$%&*</>");
         profilePage.waitForTextsForAllStatusMessagesToUserEquals(StringHelper.toString(spa.getInvalidityInfo(), " ")
                                              // de-sanitize
@@ -197,9 +197,9 @@ public class StudentProfilePageUiTest extends BaseUiTestCase {
                 .withGender("male").withMoreInfo("this is enough!$%&*</>")
                 .withInstitute(" inst  ").withNationality("American")
                 .build();
-        profilePage.editProfileThroughUi(spa.shortName, spa.email, spa.institute, spa.nationality, spa.gender,
+        profilePage.editProfileThroughUi(spa.shortName, spa.email, spa.institute, spa.nationality, spa.dob, spa.gender,
                                          spa.moreInfo);
-        profilePage.ensureProfileContains("short.name", "e@email.tmt", "inst", "American",
+        profilePage.ensureProfileContains("short.name", "e@email.tmt", "inst", "American", "04/05/1993", 
                                           "female", "this is enough!$%&*</>");
         profilePage.waitForTextsForAllStatusMessagesToUserEquals(StringHelper.toString(spa.getInvalidityInfo(), " "));
 
@@ -212,7 +212,7 @@ public class StudentProfilePageUiTest extends BaseUiTestCase {
         profilePage.waitForUploadEditModalVisible();
 
         profilePage.editProfilePhoto();
-        profilePage.ensureProfileContains("short.name", "e@email.tmt", "inst", "American",
+        profilePage.ensureProfileContains("short.name", "e@email.tmt", "inst", "American", "02/11/1993",
                                           "female", "this is enough!$%&*</>");
         profilePage.verifyPhotoSize(150, 150);
 
@@ -223,7 +223,7 @@ public class StudentProfilePageUiTest extends BaseUiTestCase {
 
         profilePage.showPictureEditor();
         profilePage.editProfilePhoto();
-        profilePage.ensureProfileContains("short.name", "e@email.tmt", "inst", "American",
+        profilePage.ensureProfileContains("short.name", "e@email.tmt", "inst", "American", "09/10/1998",
                                           "female", "this is enough!$%&*</>");
         profilePage.verifyPhotoSize(150, 150);
 

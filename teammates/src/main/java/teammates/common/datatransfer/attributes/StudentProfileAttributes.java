@@ -28,6 +28,7 @@ public class StudentProfileAttributes extends EntityAttributes<StudentProfile> {
     public String email;
     public String institute;
     public String nationality;
+    public String dob;
     public String gender; // only accepts "male", "female" or "other"
     public String moreInfo;
     public String pictureKey;
@@ -39,6 +40,7 @@ public class StudentProfileAttributes extends EntityAttributes<StudentProfile> {
         this.email = "";
         this.institute = "";
         this.nationality = "";
+        this.dob = "";
         this.gender = "other";
         this.moreInfo = "";
         this.pictureKey = "";
@@ -50,6 +52,7 @@ public class StudentProfileAttributes extends EntityAttributes<StudentProfile> {
                 .withShortName(sp.getShortName())
                 .withEmail(sp.getEmail())
                 .withInstitute(sp.getInstitute())
+                .withDob(sp.getDob())
                 .withGender(sp.getGender())
                 .withNationality(sp.getNationality())
                 .withMoreInfo(sp.getMoreInfo().getValue())
@@ -214,6 +217,13 @@ public class StudentProfileAttributes extends EntityAttributes<StudentProfile> {
             return this;
         }
 
+        public Builder withDob(String dob) {
+        	if(dob != null) {
+        		profileAttributes.dob = SanitizationHelper.sanitizeName(dob);
+        	}
+        	return this;
+        }
+        
         public Builder withGender(String gender) {
             profileAttributes.gender = isGenderValid(gender) ? gender : "other";
             return this;
