@@ -4,11 +4,39 @@
     <link rel="shortcut icon" href="/favicon.png">
     <meta charset="utf-8">
     <title>TEAMMATES</title>
+    
+   <style>
+   <!--
+   	textarea{
+   		background-color: black;
+   		color:#fff;
+   		width: 100%;
+   	}
+   	-->
+   </style>
   </head>
   <body>
     <div class="col-sm-12">
-      <h1>Test student Message of the day! =)</h1>
-      <img alt="Overview of TEAMMATES - anonymous peer feedback and confidential peer evaluations" src="/images/overview.png" width="350px">
+      <h1 id="motd">Test student Message of the day! =)</h1>
     </div>
+    <script>
+		$("#motd").click(divClicked);
+
+		function divClicked() {
+		    var divHtml = $(this).html();
+		    var editableText = $("<textarea />");
+		    editableText.val(divHtml);
+		    $(this).replaceWith(editableText);
+		    editableText.focus();
+		    editableText.blur(editableTextBlurred);
+		}
+
+		function editableTextBlurred() {
+		    var html = $(this).val();
+		    var viewableText = $("h1");
+		    viewableText.html(html);
+		    $(this).replaceWith(viewableText);
+		}
+	</script>
   </body>
 </html>
