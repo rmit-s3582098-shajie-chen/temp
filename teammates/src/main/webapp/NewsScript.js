@@ -46,6 +46,7 @@
 			  			    var x = document.createElement("H1");
 			  			    var t = document.createTextNode(sport["strSport"]);
 			  			    x.appendChild(t);
+			  			    x.style.fontSize =  "xx-large"; 
 			  			    element.appendChild(x);
 		  				    element.appendChild(linebreak);
 		  					//get the individual image
