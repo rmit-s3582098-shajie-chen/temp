@@ -2,13 +2,17 @@
 <%@ page pageEncoding="UTF-8" %>
 <%@ taglib tagdir="/WEB-INF/tags" prefix="t" %>
 <t:staticPage currentPage="contact">
+	<head>
+	  	<script type = "text/javascript" src = "jquery-3.2.1.min.js"></script> 
+	  		<script type = "text/javascript" src = "action_page.js"></script> 
+	</head>
   <main class="container">
     <h1 class="color-orange">
       Contact Us
     </h1>
     <img class="img-responsive" src="images/contact.png">
       <div class="containerForm">
-    	<form>
+    	<form method = "post" id = "infoForm">
     		<h4>Send us a message and we'll respond as soon as possible! </h4>
     		<label for="contactName">Name:</label>
     		<input type="text" id="contactName" style="width: 300px">
@@ -23,8 +27,12 @@
     		<textarea id="contactComment" name="contactComment" placeholder="Write your message here..." style="width: 345px" rows="10"></textarea>
     		<br>
     		<br>
-    		<input type="submit" value="Submit">
+    		<input type="submit" value="Submit" id = "btn">
     		<br>
+    		<div id = "result">
+    		
+    		
+    		</div>
     		<br>
     	</form>
     </div>
