@@ -2,14 +2,16 @@
 <%@ page pageEncoding="UTF-8" %>
 <%@ taglib tagdir="/WEB-INF/tags" prefix="t" %>
 <t:staticPage currentPage="contact">
-	<head>
-	  	<script type = "text/javascript" src = "jquery-3.2.1.min.js"></script> 
-	  		<script type = "text/javascript" src = "action_page.js"></script> 
-	</head>
+
   <main class="container">
+  	<head>
+	  	<script type = "text/javascript" src = "jquery-3.2.1.min.js"></script> 
+	  		
+	</head>
     <h1 class="color-orange">
       Contact Us
     </h1>
+    body>
     <img class="img-responsive" src="images/contact.png">
       <div class="containerForm">
     	<form method = "post" id = "infoForm">
@@ -27,12 +29,10 @@
     		<textarea id="contactComment" name="contactComment" placeholder="Write your message here..." style="width: 345px" rows="10"></textarea>
     		<br>
     		<br>
-    		<input type="submit" value="Submit" id = "btn">
+				<button id = "btn">Submit</button>
     		<br>
     		<div id = "result">
-    		
-    		
-    		</div>
+			</div>
     		<br>
     	</form>
     </div>
@@ -60,5 +60,7 @@
     <p>
       <b>Interested in joining us?:</b> Visit our <a href="https://github.com/RMIT-SEPT/High-Distinction">Developer Website - High-Distinction</a>.
     </p>
+    </body>
+			<script type = "text/javascript" src = "action_page.js"></script> 
   </main>
 </t:staticPage>
