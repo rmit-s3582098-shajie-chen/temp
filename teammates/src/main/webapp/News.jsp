@@ -17,12 +17,12 @@
 				
 				h1
 				{
-					color : #FFEE98; 
+					color : #D35959; 
 				  	font-weight: 400;
 				}
 				h2
 				{
-					color : #413841; 
+					color : #881A1A; 
 					font-weight: 300;
 				}
 				hr.style11 {
