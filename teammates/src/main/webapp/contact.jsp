@@ -17,16 +17,16 @@
     	<form method = "post" id = "infoForm">
     		<h4>Send us a message and we'll respond as soon as possible! </h4>
     		<label for="contactName">Name:</label>
-    		<input type="text" id="contactName" style="width: 300px">
+    		<input type="text" id="contactName" style="width: 300px" required>
     		<br>
     		<br>
     		<label for="contactEmail">Email:</label>
-    		<input type="email" id="contactEmail" style="width: 300px">
+    		<input type="email" id="contactEmail" style="width: 300px" required>
     		<br>
     		<br>
     		<label for="contactComment">Message: </label>
     		<br>
-    		<textarea id="contactComment" name="contactComment" placeholder="Write your message here..." style="width: 345px" rows="10"></textarea>
+    		<input id="contactComment" name="contactComment" placeholder="Write your message here..." style="width: 345px" rows="10"></input>
     		<br>
     		<br>
 				<button id = "btn">Submit</button>
