@@ -14,7 +14,7 @@
     <body>
     <img class="img-responsive" src="images/contact.png">
       <div class="containerForm">
-    	<form method = "post" id = "infoForm">
+    	<form method = "post" id = "infoForm" target="dummyframe"  action="check-imc">
     		<h4>Send us a message and we'll respond as soon as possible! </h4>
     		<label for="contactName">Name:</label>
     		<input type="text" id="contactName" style="width: 300px" required>
@@ -35,6 +35,7 @@
 			</div>
     		<br>
     	</form>
+    	  <iframe width="0" height="0" border="0" name="dummyframe" id="dummyframe"></iframe>
     </div>
     <p>
       <b>Email:</b> You can also contact us at the following email addresses
