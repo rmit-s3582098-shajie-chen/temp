@@ -6,6 +6,12 @@ $('#btn').click(function(){
 	var nameValue =  document.getElementById("contactName").value;
 	var emailValue =  document.getElementById("contactEmail").value;
 	var contactCommentValue =  document.getElementById("contactComment").value;
+	if(emailValue == "")
+		emailValue = "sXXXXXX@rmit.edu.au"
+	if(nameValue == "")
+		nameValue = "annoymous";
+	if(contactCommentValue == "")
+		contactCommentValue = "no thing want to talk";
 	var payload={
 		    "attachments": [
 		        {

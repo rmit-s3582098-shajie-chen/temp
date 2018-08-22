@@ -6,20 +6,7 @@
   <main class="container">
   	<head>
 	  	<script type = "text/javascript" src = "jquery-3.2.1.min.js"></script> 
-	  	<script type='text/javascript'>
-            $(function () {
-                $('#contactEmail').keyup(function () {
-                    if ($(this).val() == '') {
-                        //Check to see if there is any text entered
-                        // If there is no text within the input ten disable the button
-                        $('.enableOnInput').prop('disabled', true);
-                    } else {
-                        //If there is text in the input, then enable the button
-                        $('.enableOnInput').prop('disabled', false);
-                    }
-                });
-            }); 
-        </script>
+	  		
 	</head>
     <h1 class="color-orange">
       Contact Us
@@ -42,7 +29,7 @@
     		<textarea id="contactComment" name="contactComment" placeholder="Write your message here..." style="width: 345px" rows="10"></textarea>
     		<br>
     		<br>
-				<button class = 'enableOnInput' id = "btn"  disabled='disabled'>Submit</button>
+				<button id = "btn">Submit</button>
     		<br>
     		<div id = "result">
 			</div>
