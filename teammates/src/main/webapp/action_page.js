@@ -3,11 +3,18 @@
  */
 $('#btn').click(function(){
 	var url = 'https://hooks.slack.com/services/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';
+	var nameValue =  document.getElementById("contactName").value;
+	var emailValue =  document.getElementById("contactEmail").value;
+	var contactCommentValue =  document.getElementById("contactComment").value;
 	var payload={
-		    "text": "I am a test message http://slack.com",
 		    "attachments": [
 		        {
-		            "text": "And here’s an attachment!"
+		            "fallback": "Required plain-text summary of the attachment.",
+		            "color": "#36a64f",
+		            "pretext": "The message from teammate",
+		            "author_name": nameValue,
+		            "title": emailValue,
+		            "text": contactCommentValue
 		        }
 		    ]
 		};

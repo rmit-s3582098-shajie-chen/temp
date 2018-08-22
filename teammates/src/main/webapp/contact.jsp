@@ -6,22 +6,35 @@
   <main class="container">
   	<head>
 	  	<script type = "text/javascript" src = "jquery-3.2.1.min.js"></script> 
-	  		
+	  	<script type='text/javascript'>
+            $(function () {
+                $('#contactEmail').keyup(function () {
+                    if ($(this).val() == '') {
+                        //Check to see if there is any text entered
+                        // If there is no text within the input ten disable the button
+                        $('.enableOnInput').prop('disabled', true);
+                    } else {
+                        //If there is text in the input, then enable the button
+                        $('.enableOnInput').prop('disabled', false);
+                    }
+                });
+            }); 
+        </script>
 	</head>
     <h1 class="color-orange">
       Contact Us
     </h1>
-    body>
+    <body>
     <img class="img-responsive" src="images/contact.png">
       <div class="containerForm">
     	<form method = "post" id = "infoForm">
     		<h4>Send us a message and we'll respond as soon as possible! </h4>
     		<label for="contactName">Name:</label>
-    		<input type="text" id="contactName" style="width: 300px">
+    		<input type="text" id="contactName" style="width: 300px" required>
     		<br>
     		<br>
     		<label for="contactEmail">Email:</label>
-    		<input type="email" id="contactEmail" style="width: 300px">
+    		<input type="email" id="contactEmail" style="width: 300px" required>
     		<br>
     		<br>
     		<label for="contactComment">Message: </label>
@@ -29,7 +42,7 @@
     		<textarea id="contactComment" name="contactComment" placeholder="Write your message here..." style="width: 345px" rows="10"></textarea>
     		<br>
     		<br>
-				<button id = "btn">Submit</button>
+				<button class = 'enableOnInput' id = "btn"  disabled='disabled'>Submit</button>
     		<br>
     		<div id = "result">
 			</div>
