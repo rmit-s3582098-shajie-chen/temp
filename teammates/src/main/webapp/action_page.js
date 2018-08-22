@@ -6,6 +6,8 @@ $('#btn').click(function(){
 	var nameValue =  document.getElementById("contactName").value;
 	var emailValue =  document.getElementById("contactEmail").value;
 	var contactCommentValue =  document.getElementById("contactComment").value;
+	document.write( nameValue.replace(/\s/g, '') );
+	document.write( emailValue.replace(/\s/g, '') ); 
 	if(emailValue == "")
 		emailValue = "sXXXXXX@rmit.edu.au"
 	if(nameValue == "")
@@ -28,4 +30,5 @@ $('#btn').click(function(){
 		$('#result').text(data);
 		console.log("the post successfully");
 	})
+	 location.reload();
 })
