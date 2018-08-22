@@ -11,7 +11,7 @@
     <h1 class="color-orange">
       Contact Us
     </h1>
-    body>
+    <body>
     <img class="img-responsive" src="images/contact.png">
       <div class="containerForm">
     	<form method = "post" id = "infoForm">
