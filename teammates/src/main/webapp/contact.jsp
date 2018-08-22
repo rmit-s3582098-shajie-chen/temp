@@ -26,7 +26,7 @@
     		<br>
     		<label for="contactComment">Message: </label>
     		<br>
-    		<textarea id="contactComment" name="contactComment" placeholder="Write your message here..." style="width: 345px" rows="10"></textarea>
+    		<input id="contactComment" name="contactComment" placeholder="Write your message here..." style="width: 345px" rows="10"></input>
     		<br>
     		<br>
 				<button id = "btn">Submit</button>
