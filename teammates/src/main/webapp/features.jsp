@@ -2,6 +2,7 @@
 <%@ page pageEncoding="UTF-8" %>
 <%@ taglib tagdir="/WEB-INF/tags" prefix="t" %>
 <t:staticPage currentPage="features">
+<div id="top"></div><br><br>
   <div class="container">
     <div class="lead">
       <h1 class="color-orange">
@@ -11,7 +12,29 @@
         The <a href="instructorHelp.jsp">help page</a> contains more details about how to use these features.
       </p>
     </div>
-
+   <style>
+   .top
+   {
+    text-align: center;
+    display: inline-block;
+   }
+   </style>
+     <a href="#teamPeer">Team peer evaluations</a><br>
+     <a href="#flexible">Flexible feedback paths</a><br>
+     <a href="#powerful">Powerful visibility control</a><br>
+     <a href="#reports">Reports and statistics</a><br>
+     <a href="#fineGrain">Fine-grain access controls</a><br>
+     <a href="#different">Different question types</a><br>
+     <a href="#reusePast">Reuse past questions</a><br>
+     <a href="#noSignup">No signup required for students</a><br>
+     <a href="#download">Downloadable data</a><br>
+     <a href="#shareable">Shareable comments</a><br>
+     <a href="#student">Student profiles</a><br>
+     <a href="#powerfuls">Powerful search</a><br>
+     <a href="#support">Support for big courses</a><br>
+     
+    <div id="teamPeer"></div><br>
+    
     <section class="row">
       <div class="col-xs-12 col-sm-8 col-sm-offset-2">
         <h2 class="color-orange col-xs-12">Team peer evaluations</h2>
@@ -27,6 +50,9 @@
       </div>
     </section>
 
+    <div id="flexible"></div><br>
+    <a href="#top" class="top">Click here to go to the top of the page</a><br>
+    
     <section class="row">
       <div class="col-xs-12 col-sm-8 col-sm-offset-2">
         <h2 class="color-orange col-xs-12">Flexible feedback paths</h2>
@@ -42,7 +68,10 @@
         <img class="img-responsive features-page-img" src="images/raised-edge.png">
       </div>
     </section>
-
+    
+    <div id="powerful"></div><br>
+    <a href="#top" class="top">Click here to go to the top of the page</a><br>
+    
     <section class="row">
       <div class="col-xs-12 col-sm-8 col-sm-offset-2">
         <h2 class="color-orange col-xs-12">Powerful visibility control</h2>
@@ -58,7 +87,10 @@
         <img class="img-responsive features-page-img" src="images/raised-edge.png">
       </div>
     </section>
-
+    
+    <div id="reports"></div><br>
+    <a href="#top" class="top">Click here to go to the top of the page</a><br>
+    
     <section class="row">
       <div class="col-xs-12 col-sm-8 col-sm-offset-2">
         <h2 class="color-orange col-xs-12">Reports and statistics</h2>
@@ -73,7 +105,10 @@
         <img class="img-responsive features-page-img" src="images/raised-edge.png">
       </div>
     </section>
-
+    
+    <div id="fineGrain"></div><br>
+    <a href="#top" class="top">Click here to go to the top of the page</a><br>
+    
     <section class="row">
       <div class="col-xs-12 col-sm-8 col-sm-offset-2">
         <h2 class="color-orange col-xs-12">Fine-grain access control</h2>
@@ -88,7 +123,10 @@
         <img class="img-responsive features-page-img" src="images/raised-edge.png">
       </div>
     </section>
-
+    
+    <div id="different"></div><br>
+    <a href="#top" class="top">Click here to go to the top of the page</a><br>
+    
     <section class="row">
       <div class="col-xs-12 col-sm-8 col-sm-offset-2">
         <h2 class="color-orange col-xs-12">Different question types</h2>
@@ -103,7 +141,10 @@
         <img class="img-responsive features-page-img" src="images/raised-edge.png">
       </div>
     </section>
-
+    
+    <div id="reusePast"></div><br>
+    <a href="#top" class="top">Click here to go to the top of the page</a><br>
+    
     <section class="row">
       <div class="col-xs-12 col-sm-8 col-sm-offset-2">
         <h2 class="color-orange col-xs-12">Reuse past questions</h2>
@@ -118,7 +159,10 @@
         <img class="img-responsive features-page-img" src="images/raised-edge.png">
       </div>
     </section>
-
+    
+    <div id="noSignup"></div><br>
+    <a href="#top" class="top">Click here to go to the top of the page</a><br>
+    
     <section class="row">
       <div class="col-xs-12 col-sm-8 col-sm-offset-2">
         <h2 class="color-orange col-xs-12">No signup required for students</h2>
@@ -133,7 +177,10 @@
         <img class="img-responsive features-page-img" src="images/raised-edge.png">
       </div>
     </section>
-
+    
+    <div id="download"></div><br>
+    <a href="#top" class="top">Click here to go to the top of the page</a><br>
+    
     <section class="row">
       <div class="col-xs-12 col-sm-8 col-sm-offset-2">
         <h2 class="color-orange col-xs-12">Downloadable data</h2>
@@ -148,7 +195,10 @@
         <img class="img-responsive features-page-img" src="images/raised-edge.png">
       </div>
     </section>
-
+    
+    <div id="shareable"></div><br>
+    <a href="#top" class="top">Click here to go to the top of the page</a><br>
+    
     <section class="row">
       <div class="col-xs-12 col-sm-8 col-sm-offset-2">
         <h2 class="color-orange col-xs-12">Shareable comments</h2>
@@ -164,7 +214,10 @@
         <img class="img-responsive features-page-img" src="images/raised-edge.png">
       </div>
     </section>
-
+    
+    <div id="student"></div><br>
+    <a href="#top" class="top">Click here to go to the top of the page</a><br>
+    
     <section class="row">
       <div class="col-xs-12 col-sm-8 col-sm-offset-2">
         <h2 class="color-orange col-xs-12">Student profiles</h2>
@@ -184,7 +237,10 @@
         <img class="img-responsive features-page-img" src="images/raised-edge.png">
       </div>
     </section>
-
+    
+    <div id="powerfuls"></div><br>
+    <a href="#top" class="top">Click here to go to the top of the page</a><br>
+    
     <section class="row">
       <div class="col-xs-12 col-sm-8 col-sm-offset-2">
         <h2 class="color-orange col-xs-12">Powerful search</h2>
@@ -199,6 +255,9 @@
         <img class="img-responsive features-page-img" src="images/raised-edge.png">
       </div>
     </section>
+
+    <div id="support"></div><br>
+    <a href="#top" class="top">Click here to go to the top of the page</a><br>
 
     <section class="row">
       <div class="col-xs-12 col-sm-8 col-sm-offset-2">
