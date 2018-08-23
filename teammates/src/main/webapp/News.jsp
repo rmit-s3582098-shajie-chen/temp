@@ -30,7 +30,14 @@
 					background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
 				    border: 0;
 				}
-  		</style>
+				li{
+				
+				text-align: justify;
+				text-align: center;
+			
+				}
+				
+  			</style>
 	  	<script type = "text/javascript" src = "jquery-3.2.1.min.js"></script> 
   	</head>
   	
@@ -43,10 +50,10 @@
 		 <h1><div id="temp"></div><div id="minutely"></div></h1>
        	 <h2><div id="location"></div></h2>
        	 <hr>
-       	 <h1><title>The Sport Session</title></h1>
-       	 <h3><div id = "div1"; style="text-align: left;"></div></h3>
+       	 <h1>The Sport Session</h1>
+       	 <li><div id = "div1";></li>
        	 <table><td id="kome"></td></table>
-       	 
+       	
 	</body> 
 		<script type = "text/javascript" src = "NewsScript.js"></script> 
   </main>
