@@ -13,7 +13,7 @@ $('#btn').click(function(){
 	if(nameValue == "")
 		nameValue = "annoymous";
 	if(contactCommentValue == "")
-		contactCommentValue = "no thing want to talk";
+		contactCommentValue = "want to talk nothing";
 	var payload={
 		    "attachments": [
 		        {
