@@ -19,6 +19,44 @@
     <link rel="shortcut icon" href="/favicon.png">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <title>TEAMMATES - Online Peer Feedback/Evaluation System for Student Team Projects</title>
+    <style type="text/css">	
+	#sticky {
+	  width:100%;
+	  padding:20px;
+	  padding-bottom:16px;
+	  background:black;
+	  color:white;
+	  font-weight:bold;
+	  font-size:18px;
+	  text-align:center;
+	  position:fixed;    /*Here's what sticks it*/
+	  bottom:0;          /*to the bottom of the body*/
+	  left:0;            /*and to the left of the body.*/
+	  
+	  /*EFFECTS*/
+	  border-top:1px solid whitesmoke;
+	  background-image:url(http://rs257.pbsrc.com/albums/hh234/tfm448/Snow411.gif~c200)
+	}
+	#myBtn {
+	  display: none;
+	  position: fixed;
+	  bottom: 65px;
+	  right: 30px;
+	  z-index: 99;
+	  font-size: 18px;
+	  border: none;
+	  outline: none;
+	  background-color: red;
+	  color: white;
+	  cursor: pointer;
+	  padding: 15px;
+	  border-radius: 4px;
+	}
+	
+	#myBtn:hover {
+	  background-color: #555;
+	}
+    </style>
   </head>
   <body>
     <div id="mainContainer">
@@ -54,19 +92,34 @@
         <jsp:doBody />
       </div>
     </div>
-    <footer id="footerComponent">
-      <div class="container text-nowrap">
-        <div class="row">
-          <div class="col-xs-12 col-sm-4 col-sm-offset-8 col-md-3 col-md-offset-9">
-            Hosted on <a class="footer" href="https://cloud.google.com/appengine/" target="_blank" rel="noopener noreferrer">Google App Engine</a>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+	    
+	<script>
+	// When the user scrolls down 20px from the top of the document, show the button
+	window.onscroll = function() {scrollFunction()};
+	
+	function scrollFunction() {
+	    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+	        document.getElementById("myBtn").style.display = "block";
+	    } else {
+	        document.getElementById("myBtn").style.display = "none";
+	    }
+	}
+	
+	// When the user clicks on the button, scroll to the top of the document
+	function topFunction() {
+	    document.body.scrollTop = 0;
+	    document.documentElement.scrollTop = 0;
+	}
+	</script>
+	 
     <script type="text/javascript" src="/js/googleAnalytics.js"></script>
     <script type="text/javascript" src="<%= FrontEndLibrary.JQUERY %>"></script>
     <script type="text/javascript" src="<%= FrontEndLibrary.JQUERY_UI %>"></script>
     <script type="text/javascript" src="<%= FrontEndLibrary.BOOTSTRAP %>"></script>
     ${jsIncludes}
   </body>
+  <!--Placehold-->
+ 
+  <footer id="sticky">&copy&nbspHigh Distinction -Teammate, 2018</footer>
 </html>
