@@ -29,30 +29,30 @@
     }
   </style>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>Magazine</title>
 </head>
 <body>
 <div class="container">    
   <div class="row">
     <div class="col-sm-4">
       <div class="panel panel-primary">
-        <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+        <div class="panel-heading">Monday</div>
+        <div class="panel-body"><img src="http://thechap.co.uk/wp-content/uploads/2017/11/the-chap-magazine-94.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">$10</div>
       </div>
     </div>
     <div class="col-sm-4"> 
       <div class="panel panel-danger">
-        <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+        <div class="panel-heading">Tuesday</div>
+        <div class="panel-body"><img src="https://www.allergicliving.com/wp-content/uploads/2018/03/Spring-2018-FIN.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">$100</div>
       </div>
     </div>
     <div class="col-sm-4"> 
       <div class="panel panel-success">
-        <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+        <div class="panel-heading">Wednesday</div>
+        <div class="panel-body"><img src="https://timedotcom.files.wordpress.com/2015/12/adele-final.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">$1000</div>
       </div>
     </div>
   </div>
@@ -62,23 +62,23 @@
   <div class="row">
     <div class="col-sm-4">
       <div class="panel panel-primary">
-        <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+        <div class="panel-heading">Thursday</div>
+        <div class="panel-body"><img src="http://www.charlottestreetnews.co.uk/wp-content/uploads/2016/01/Pride-Magazine.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">$10000</div>
       </div>
     </div>
     <div class="col-sm-4"> 
       <div class="panel panel-primary">
-        <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+        <div class="panel-heading">Friday</div>
+        <div class="panel-body"><img src="https://gl-images.condecdn.net/image/LqZP9p9PXVn/crop/405/1.3173076923076923/f/03-17_COVER_DAKOTA_RGB_NO_PRICE.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">$100000</div>
       </div>
     </div>
     <div class="col-sm-4"> 
       <div class="panel panel-primary">
-        <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+        <div class="panel-heading">Saturday</div>
+        <div class="panel-body"><img src="https://www.isubscribe.com.au/images/covers/au/401/12446/xlarge/Modern-Wedding-Magazine-Jul-2018.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">$1000000</div>
       </div>
     </div>
   </div>
