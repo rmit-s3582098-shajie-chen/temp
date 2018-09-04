@@ -4,6 +4,10 @@
 <t:staticPage currentPage="terms">
   <main>
   	<head>
+<<<<<<< HEAD
+=======
+		 <link rel="stylesheet" href="terms_css_style.css">
+>>>>>>> master
   		<style>
 		body {font-family: Arial, Helvetica, sans-serif;}
 		
@@ -91,9 +95,20 @@
     <p>
       By using <b>TEAMMATES</b>, you agree to the following terms of use:
     </p>
+<<<<<<< HEAD
  <!-- Trigger/Open The Modal -->
 <button id="myBtn2">Term of Use </button>
 
+=======
+<div id="myBtn2" class="back">
+    <div class="button_base b07_3d_double_roll">
+        <div>Term of Use</div>
+        <div>Term of Use</div>
+        <div>Term of Use</div>
+        <div>Term of Use</div>
+    </div>
+</div>
+>>>>>>> master
 <!-- The Modal -->
 <div id="myModal" class="modal">
 
