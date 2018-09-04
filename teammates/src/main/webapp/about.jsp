@@ -79,15 +79,6 @@
            opacity: 0.5;
         }
       </style>
-      <a href="https://www.youtube.com" target="_blank">
-        <img id="links" src="/images/youtube.jpg" width='50' style="float: right; margin: 0px 10px 10px 0px;">
-      </a>
-      <a href="https://www.facebook.com" target="_blank">
-        <img id="links" src="/images/facebook.png" width='50' style="float: right; margin: 0px 10px 10px 0px;">
-      </a>  
-      <a href="https://www.twitter.com" target="_blank">
-        <img id="links" src="/images/twitter.png" width='50' style="float: right; margin: 0px 10px 10px 0px;">
-      </a>  
     </p>
   </div>
 </t:staticPage>
