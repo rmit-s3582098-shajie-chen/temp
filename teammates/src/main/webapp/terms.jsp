@@ -85,6 +85,9 @@
 		</style>
 
   	</head>
+  	<br>
+  	<br>
+  	<br>
     <h1 class="color-orange">
       Terms of Use
     </h1>
