@@ -22,20 +22,21 @@
     <style type="text/css">	
 	#sticky {
 	  width:100%;
-	  padding:20px;
-	  padding-bottom:16px;
+	  padding:10px;
+	  padding-bottom:10px;
 	  background:black;
 	  color:white;
-	  font-weight:bold;
-	  font-size:18px;
-	  text-align:center;
+	  font-size:14px;
+	  text-align:left;
 	  position:fixed;    /*Here's what sticks it*/
 	  bottom:0;          /*to the bottom of the body*/
 	  left:0;            /*and to the left of the body.*/
 	  
+	  
 	  /*EFFECTS*/
 	  border-top:1px solid whitesmoke;
 	  background-image:url(http://rs257.pbsrc.com/albums/hh234/tfm448/Snow411.gif~c200)
+	  
 	}
 	#myBtn {
 	  display: none;
@@ -121,5 +122,25 @@
   </body>
   <!--Placehold-->
  
-  <footer id="sticky">&copy&nbspHigh Distinction -Teammate, 2018</footer>
+  <footer id="sticky">
+  		&copy&nbspHigh-Distinction -Teammate, 2018
+  		
+  	
+  
+    <a href="https://www.youtube.com" target="_blank">
+        <img id="links" src="/images/youtube.png" width='25' style="float: right; margin: 0px 5px 5px 0px;">
+    </a>
+    <a href="https://www.facebook.com" target="_blank">
+        <img id="links" src="/images/facebook.png" width='25' style="float: right; margin: 0px 5px 5px 0px;">
+    </a>  
+    <a href="https://www.twitter.com" target="_blank">
+        <img id="links" src="/images/twitter.png" width='25' style="float: right; margin: 0px 5px 5px 0px;">
+    </a>  
+    <a href="https://www.instagram.com" target="_blank">
+        <img id="links" src="/images/instagram.png" width='25' style="float: right; margin: 0px 5px 5px 0px;">
+    </a>  
+    
+    <a href="contact.jsp" style="float: right; margin: 0px 5px 5px 0px;">Contact Us</a>
+  
+  </footer>
 </html>

@@ -5,6 +5,7 @@
   <main>
   	<head>
 		 <link rel="stylesheet" href="terms_css_style.css">
+
   		<style>
 		body {font-family: Arial, Helvetica, sans-serif;}
 		
@@ -95,6 +96,9 @@
     <p>
       By using <b>TEAMMATES</b>, you agree to the following terms of use:
     </p>
+
+ <!-- Trigger/Open The Modal -->
+
 <div id="myBtn2" class="back">
     <div class="button_base b07_3d_double_roll">
         <div>Term of Use</div>
@@ -103,6 +107,7 @@
         <div>Term of Use</div>
     </div>
 </div>
+
 <!-- The Modal -->
 <div id="myModal" class="modal">
 

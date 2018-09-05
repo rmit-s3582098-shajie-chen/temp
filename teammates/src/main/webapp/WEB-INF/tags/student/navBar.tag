@@ -30,6 +30,12 @@
             Profile
           </a>
         </li>
+        <li<c:if test="${fn:contains(data.getClass(), 'StudentProfilePage')}"> class="active"</c:if>>
+          <a class="navLinks" id="studentProfileNavLink" href="${data.instructorSearchLink}"
+              <c:if test="${isUnregistered}">data-unreg="true"</c:if>>
+            View Profile
+          </a>
+        </li>
         <li<c:if test="${fn:contains(data.getClass(), 'StudentHelp')}"> class="active"</c:if>>
           <a id="studentHelpLink" class="nav" href="/studentHelp.jsp" target="_blank" rel="noopener noreferrer">Help</a>
         </li>

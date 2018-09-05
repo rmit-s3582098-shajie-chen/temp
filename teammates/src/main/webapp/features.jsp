@@ -44,13 +44,14 @@
     min-width: 200px;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
     z-index: 1;
 }
 
 .dropdown-content a {
     color: black;
     text-decoration: none;
-    display: block;
+    display: inline-block;
 }
 
 .dropdown a:hover {background-color: #ddd;}
@@ -117,7 +118,7 @@ window.onclick = function(event) {
     </section>
 
     <div id="flexible"></div><br>
-    <a href="#top" class="top">Click here to go to the top of the page</a><br>
+    
     
     <section class="row">
       <div class="col-xs-12 col-sm-8 col-sm-offset-2">
@@ -136,7 +137,7 @@ window.onclick = function(event) {
     </section>
     
     <div id="powerful"></div><br>
-    <a href="#top" class="top">Click here to go to the top of the page</a><br>
+ 
     
     <section class="row">
       <div class="col-xs-12 col-sm-8 col-sm-offset-2">
@@ -155,7 +156,7 @@ window.onclick = function(event) {
     </section>
     
     <div id="reports"></div><br>
-    <a href="#top" class="top">Click here to go to the top of the page</a><br>
+    
     
     <section class="row">
       <div class="col-xs-12 col-sm-8 col-sm-offset-2">
@@ -173,7 +174,7 @@ window.onclick = function(event) {
     </section>
     
     <div id="fineGrain"></div><br>
-    <a href="#top" class="top">Click here to go to the top of the page</a><br>
+   
     
     <section class="row">
       <div class="col-xs-12 col-sm-8 col-sm-offset-2">
@@ -191,7 +192,7 @@ window.onclick = function(event) {
     </section>
     
     <div id="different"></div><br>
-    <a href="#top" class="top">Click here to go to the top of the page</a><br>
+   
     
     <section class="row">
       <div class="col-xs-12 col-sm-8 col-sm-offset-2">
@@ -209,7 +210,7 @@ window.onclick = function(event) {
     </section>
     
     <div id="reusePast"></div><br>
-    <a href="#top" class="top">Click here to go to the top of the page</a><br>
+  
     
     <section class="row">
       <div class="col-xs-12 col-sm-8 col-sm-offset-2">
@@ -227,7 +228,7 @@ window.onclick = function(event) {
     </section>
     
     <div id="noSignup"></div><br>
-    <a href="#top" class="top">Click here to go to the top of the page</a><br>
+    
     
     <section class="row">
       <div class="col-xs-12 col-sm-8 col-sm-offset-2">
@@ -245,7 +246,7 @@ window.onclick = function(event) {
     </section>
     
     <div id="download"></div><br>
-    <a href="#top" class="top">Click here to go to the top of the page</a><br>
+   
     
     <section class="row">
       <div class="col-xs-12 col-sm-8 col-sm-offset-2">
@@ -263,7 +264,7 @@ window.onclick = function(event) {
     </section>
     
     <div id="shareable"></div><br>
-    <a href="#top" class="top">Click here to go to the top of the page</a><br>
+   
     
     <section class="row">
       <div class="col-xs-12 col-sm-8 col-sm-offset-2">
@@ -282,7 +283,7 @@ window.onclick = function(event) {
     </section>
     
     <div id="student"></div><br>
-    <a href="#top" class="top">Click here to go to the top of the page</a><br>
+  
     
     <section class="row">
       <div class="col-xs-12 col-sm-8 col-sm-offset-2">
@@ -305,7 +306,7 @@ window.onclick = function(event) {
     </section>
     
     <div id="powerfuls"></div><br>
-    <a href="#top" class="top">Click here to go to the top of the page</a><br>
+    
     
     <section class="row">
       <div class="col-xs-12 col-sm-8 col-sm-offset-2">
@@ -323,7 +324,7 @@ window.onclick = function(event) {
     </section>
 
     <div id="support"></div><br>
-    <a href="#top" class="top">Click here to go to the top of the page</a><br>
+ 
 
     <section class="row">
       <div class="col-xs-12 col-sm-8 col-sm-offset-2">
