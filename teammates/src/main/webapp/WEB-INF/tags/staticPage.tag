@@ -22,8 +22,8 @@
     <style type="text/css">	
 	#sticky {
 	  width:100%;
-	  padding:20px;
-	  padding-bottom:16px;
+	  padding:10px;
+	  padding-bottom:10px;
 	  background:black;
 	  color:white;
 	  font-size:14px;
@@ -124,6 +124,8 @@
  
   <footer id="sticky">
   		&copy&nbspHigh-Distinction -Teammate, 2018
+  		
+  	
   
     <a href="https://www.youtube.com" target="_blank">
         <img id="links" src="/images/youtube.png" width='25' style="float: right; margin: 0px 5px 5px 0px;">
@@ -137,6 +139,8 @@
     <a href="https://www.instagram.com" target="_blank">
         <img id="links" src="/images/instagram.png" width='25' style="float: right; margin: 0px 5px 5px 0px;">
     </a>  
+    
+    <a href="contact.jsp" style="float: right; margin: 0px 5px 5px 0px;">Contact Us</a>
   
   </footer>
 </html>
