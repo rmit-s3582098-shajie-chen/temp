@@ -22,8 +22,8 @@
     <style type="text/css">	
 	#sticky {
 	  width:100%;
-	  padding:10px;
-	  padding-bottom:10px;
+	  padding:5px;
+	  padding-bottom:5px;
 	  background:black;
 	  color:white;
 	  font-size:14px;
