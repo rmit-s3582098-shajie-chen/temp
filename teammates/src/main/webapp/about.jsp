@@ -37,20 +37,23 @@
           <img src="https://www.yourkit.com/images/yklogo.png" width='70'>.
         </li>
       </ul>
+      
       <p>
         TEAMMATES has benefitted from the work of <span id="contributors-count"></span> developers.
       </p>
     </section>
 
+	<section class="row">
+      <h3>Committers: </h3>
+      	<h4>Joseph Bulan | Shajie Chen | Reinhart Weismann| Ummil Syazwina Zainab Tengku</h4>
+      <ol id="committers-current"></ol>
+    </section>
+    
     <section class="row">
       <h3>Core Team: High Distinction</h3>
       <div id="teammembers-current"></div>
     </section>
 
-    <section class="row">
-      <h3>Committers: Joseph Bulan | Shajie Chen | Reinhart Weismann| Ummil Syazwina Zainab Tengku</h3>
-      <ol id="committers-current"></ol>
-    </section>
 
     <section class="row">
       <h3>Past Team Members: ??</h3>
@@ -79,15 +82,6 @@
            opacity: 0.5;
         }
       </style>
-      <a href="https://www.youtube.com" target="_blank">
-        <img id="links" src="/images/youtube.jpg" width='50' style="float: right; margin: 0px 10px 10px 0px;">
-      </a>
-      <a href="https://www.facebook.com" target="_blank">
-        <img id="links" src="/images/facebook.png" width='50' style="float: right; margin: 0px 10px 10px 0px;">
-      </a>  
-      <a href="https://www.twitter.com" target="_blank">
-        <img id="links" src="/images/twitter.png" width='50' style="float: right; margin: 0px 10px 10px 0px;">
-      </a>  
     </p>
   </div>
 </t:staticPage>

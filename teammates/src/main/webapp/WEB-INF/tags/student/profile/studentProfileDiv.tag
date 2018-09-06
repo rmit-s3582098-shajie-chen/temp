@@ -138,8 +138,25 @@
       </div>
     </div>
     <div class="form-group">
-    	<label>Date of Birth</label><br>
-      	<input type="text" placeholder="dd/mm/yyyy" name="studentAge" id="studentAge" maxlength="10"/>
+    	<label for="dateofbirth">
+            Date of Birth
+        </label><br>
+      	<input id="dateofbirth" 
+            type="text" 
+            placeholder="dd/mm/yyyy"
+            value=""
+            class="form-control" 
+            name="studentAge" 
+            id="studentAge"/>
+     </div>
+     <div class="form-group">
+        <label for="homeAddress">
+            Home Address
+        </label><br>
+        <textarea id="homeAddress" 
+            rows="4" 
+            class="form-control" 
+            placeholder="Your address here..."></textarea>
      </div>
     <div class="form-group"
         title="<%= Const.Tooltips.STUDENT_PROFILE_MOREINFO %>"

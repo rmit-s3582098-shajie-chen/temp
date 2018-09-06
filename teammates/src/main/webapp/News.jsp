@@ -49,11 +49,10 @@
     	 <h1><div id="nameOfCity"></div></h1>
 		 <h1><div id="temp"></div><div id="minutely"></div></h1>
        	 <h2><div id="location"></div></h2>
-       	 <hr>
-       	 <h1>The Sport Session</h1>
-       	 <li><div id = "div1";></li>
-       	 <table><td id="kome"></td></table>
-       	
+       	 <hr> 
+	       	 <h1>The Sport Session</h1>
+	       	 <li><div align = "left" id = "div1";></li>
+	       	 <table><td id="kome"></td></table> 
 	</body> 
 		<script type = "text/javascript" src = "NewsScript.js"></script> 
   </main>
