@@ -1,6 +1,7 @@
+package teammates.test.SEPT_test_case;
+
 import org.testng.annotations.Test;
 
-import com.example.Example;
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
