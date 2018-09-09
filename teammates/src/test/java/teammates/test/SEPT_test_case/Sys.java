@@ -1,5 +1,5 @@
 
-package com.example;
+package teammates.test.SEPT_test_case;
 
 import java.util.HashMap;
 import java.util.Map;
