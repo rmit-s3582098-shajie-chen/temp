@@ -20,4 +20,9 @@
     		<calss name= "teammates.test.SEPT_test_case.JacksonAPITest"/>
     	</classes>
     </test>
+      <test name="Sport API test ">
+    	<classes>
+    		<calss name= "teammates.test.test_sport_API.TestSportAPI"/>
+    	</classes>
+    </test>
 </suite>
