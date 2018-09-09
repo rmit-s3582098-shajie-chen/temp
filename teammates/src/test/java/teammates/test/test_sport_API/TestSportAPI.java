@@ -13,12 +13,10 @@ import teammates.test.SEPT_test_case.Example;
 
 public class TestSportAPI {
     @Test
-    public void testSportAPI () throws JsonParseException , JsonMappingException, IOException
-    {
+    public void testSportAPIAttribute() throws JsonParseException,JsonMappingException,IOException {
         ObjectMapper objectMapper = new ObjectMapper();
-        Example weather = objectMapper.readValue(new File(System.getProperty("user.dir")+"//testdata//weatherAPI.json"), Example.class);
+        Sport sport = objectMapper.readValue(new File(System.getProperty("user.dir")+"//testdata//sportAPI.json"), Sport.class);
         
-        assert weather.getId().equals(2172797):"The city id is wrong ";
-        assert weather.getName().equals("Cairns"):"not the correct location ";
+        assert sport.getSports().get(0).getStrSport().equals("Soccer"):"The sport name is wrong ";
     }
 }
