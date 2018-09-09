@@ -1,6 +1,5 @@
 
-package com.example;
-
+package teammates.test.SEPT_test_case;
 import java.util.HashMap;
 import java.util.Map;
 import com.fasterxml.jackson.annotation.JsonAnyGetter;
